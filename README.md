@@ -4,7 +4,6 @@ Objective: train a simple object detection model to identify instances of produc
 
 ## Reproducibility
 
-- Notebook created in Google Colab Notebooks
 - Special care for the directory where the repository of the algorithm used is cloned
 
 >dir_to_project >> parameter to complete with the directory of the project
@@ -19,6 +18,10 @@ project -- grozi_coco -- images -- train
         |                    |----- validation    	
        yolov5
 ```
+## Notebook
+Notebook created in Google Colab which can be here: 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Aa-CJCNzP3gkYoIvphH_BJhTHC2PMboy?usp=sharing)
 
 ## Sources 
 

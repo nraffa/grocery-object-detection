@@ -8,6 +8,7 @@ Objective: train a simple object detection model to identify instances of produc
 - Special care for the directory where the repository of the algorithm used is cloned
 
 >dir_to_project >> parameter to complete with the directory of the project
+
 >dir_to_repo >> parameter to complete with the directory of the repo cloned
 
 ```

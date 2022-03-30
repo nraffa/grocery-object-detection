@@ -2,16 +2,24 @@
 
 Objective: train a simple object detection model to identify instances of products in a given image. This notebook will attempt to locate and classify occurrences of different products in supermarket shelves using a subset of the Grozi-3.2K dataset
 
-# Reproducibility
+## Reproducibility
 
 - Notebook created in Google Colab Notebooks
 - Special care for the directory where the repository of the algorithm used is cloned
 
 >dir_to_project >> parameter to complete with the directory of the project
+>dir_to_repo >> parameter to complete with the directory of the repo cloned
 
+```
+project -- grozi_coco -- images -- train
+        |       |            |----- validation
+        |       |
+        |       |-------- labels -- train
+        |                    |----- validation    	
+       yolov5
+```
 
-
-# Sources 
+## Sources 
 
 - Maindola, G., 2022. Introduction to YOLOv5 Object Detection with Tutorial - MLK - Machine Learning Knowledge. [online] Machinelearningknowledge.ai. Available at: <https://machinelearningknowledge.ai/introduction-to-yolov5-object-detection-with-tutorial/> [Accessed 24 March 2022].
 
